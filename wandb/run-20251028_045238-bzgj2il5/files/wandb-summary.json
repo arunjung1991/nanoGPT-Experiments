@@ -1,0 +1,1 @@
+{"gpu_mem_bytes":36506112,"_timestamp":1.7616272497681684e+09,"_runtime":90,"iter":1999,"loss/val":2.172625720500946,"_step":200,"host_mem_percent":16.3,"loss/train_iter":2.2321343421936035,"num_params":1206016,"loss/gap(train-val)":-0.057163381576538,"_wandb":{"runtime":90},"loss/train_eval":2.115462338924408,"lr":4.100942722740086e-10}

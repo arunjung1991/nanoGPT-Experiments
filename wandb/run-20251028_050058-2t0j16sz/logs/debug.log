@@ -1,0 +1,26 @@
+2025-10-28 05:00:58,185 INFO    MainThread:359 [wandb_init.py:setup_run_log_directory():705] Logging user logs to /content/nanoGPT/wandb/run-20251028_050058-2t0j16sz/logs/debug.log
+2025-10-28 05:00:58,185 INFO    MainThread:359 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to /content/nanoGPT/wandb/run-20251028_050058-2t0j16sz/logs/debug-internal.log
+2025-10-28 05:00:58,185 INFO    MainThread:359 [wandb_init.py:monkeypatch_ipython():624] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ab797b25250>
+2025-10-28 05:00:58,186 INFO    MainThread:359 [wandb_init.py:init():832] calling init triggers
+2025-10-28 05:00:58,186 INFO    MainThread:359 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'run_id': 'exp08_head4_emb256_bs8_it1000_do0.1', 'n_head': 4, 'n_embd': 256, 'batch_size': 8, 'max_iters': 1000, 'dropout': 0.1, 'block_size': 128, 'n_layer': 6, 'device': 'cuda', '_wandb': {}}
+2025-10-28 05:00:58,186 INFO    MainThread:359 [wandb_init.py:init():880] starting backend
+2025-10-28 05:00:58,187 INFO    MainThread:359 [wandb_init.py:init():883] sending inform_init request
+2025-10-28 05:00:58,190 INFO    MainThread:359 [wandb_init.py:init():891] backend started and connected
+2025-10-28 05:00:58,213 INFO    MainThread:359 [wandb_run.py:_label_probe_notebook():1330] probe notebook
+2025-10-28 05:00:58,744 INFO    MainThread:359 [wandb_init.py:init():961] updated telemetry
+2025-10-28 05:00:58,748 INFO    MainThread:359 [wandb_init.py:init():985] communicating run to backend with 90.0 second timeout
+2025-10-28 05:00:59,060 INFO    MainThread:359 [wandb_init.py:init():1036] starting run threads in backend
+2025-10-28 05:00:59,590 INFO    MainThread:359 [wandb_run.py:_console_start():2509] atexit reg
+2025-10-28 05:00:59,590 INFO    MainThread:359 [wandb_run.py:_redirect():2357] redirect: wrap_raw
+2025-10-28 05:00:59,590 INFO    MainThread:359 [wandb_run.py:_redirect():2426] Wrapping output streams.
+2025-10-28 05:00:59,590 INFO    MainThread:359 [wandb_run.py:_redirect():2449] Redirects installed.
+2025-10-28 05:00:59,591 INFO    MainThread:359 [wandb_init.py:init():1076] run started, returning control to user process
+2025-10-28 05:01:50,279 INFO    MainThread:359 [wandb_run.py:_finish():2275] finishing run arunjung1991/nano-sweep/2t0j16sz
+2025-10-28 05:01:50,280 INFO    MainThread:359 [jupyter.py:save_history():480] not saving jupyter history
+2025-10-28 05:01:50,280 INFO    MainThread:359 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-10-28 05:01:50,280 INFO    MainThread:359 [wandb_init.py:_jupyter_teardown():609] cleaning up jupyter logic
+2025-10-28 05:01:50,280 INFO    MainThread:359 [wandb_run.py:_atexit_cleanup():2474] got exitcode: 0
+2025-10-28 05:01:50,280 INFO    MainThread:359 [wandb_run.py:_restore():2456] restore
+2025-10-28 05:01:50,281 INFO    MainThread:359 [wandb_run.py:_restore():2462] restore done
+2025-10-28 05:01:52,045 INFO    MainThread:359 [wandb_run.py:_footer_sync_info():3872] logging synced files

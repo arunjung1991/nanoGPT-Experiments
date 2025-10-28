@@ -1,0 +1,1 @@
+{"_timestamp":1.7616280638772027e+09,"loss/gap(train-val)":-0.06589810252189632,"_runtime":84,"num_params":4771328,"gpu_mem_bytes":79439360,"lr":1.8277026628821246e-09,"host_mem_percent":16.9,"iter":999,"loss/val":2.0202330350875854,"_step":100,"loss/train_eval":1.9543349325656891,"_wandb":{"runtime":84},"loss/train_iter":2.07381010055542}

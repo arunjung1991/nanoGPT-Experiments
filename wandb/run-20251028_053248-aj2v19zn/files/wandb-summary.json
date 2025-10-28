@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":93},"gpu_mem_bytes":146343424,"loss/train_iter":2.1666464805603027,"_runtime":93,"iter":999,"loss/gap(train-val)":-0.040488481521606445,"loss/val":2.1001678466796876,"_timestamp":1.7616296667975173e+09,"loss/train_eval":2.059679365158081,"num_params":4771328,"_step":100,"host_mem_percent":17.7,"lr":1.8277026628821246e-09}

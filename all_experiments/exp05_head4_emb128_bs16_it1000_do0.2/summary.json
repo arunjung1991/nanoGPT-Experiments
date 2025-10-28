@@ -1,0 +1,9 @@
+{
+  "run_id": "exp05_head4_emb128_bs16_it1000_do0.2",
+  "num_params_final": 1206016,
+  "final_train_eval_loss": 2.2711682677268983,
+  "final_val_loss": 2.2829705119132995,
+  "final_gap": -0.01180224418640119,
+  "min_val_loss": 2.276405668258667,
+  "sweep_config": "{\"_wandb\": {\"value\": {\"e\": {\"ht97an1w9689rxr9u2owrybbd6lbhkhz\": {\"os\": \"Linux-6.6.105+-x86_64-with-glibc2.35\", \"git\": {\"commit\": \"93a43d9a5c22450bbf06e78da2cb6eeef084b717\", \"remote\": \"https://github.com/karpathy/nanoGPT.git\"}, \"gpu\": \"Tesla T4\", \"disk\": {\"/\": {\"used\": \"42646589440\", \"total\": \"120942624768\"}}, \"host\": \"40ec9e118f9a\", \"root\": \"/content/nanoGPT\", \"colab\": \"https://colab.research.google.com/notebook#fileId=1ZGuZSLvBniizG5XaPBMDuZBir_1fiooD\", \"email\": \"arunjung1991@gmail.com\", \"memory\": {\"total\": \"13605855232\"}, \"python\": \"CPython 3.12.12\", \"program\": \"nanoGPT_assignment.ipynb\", \"writerId\": \"ht97an1w9689rxr9u2owrybbd6lbhkhz\", \"cpu_count\": 1, \"gpu_count\": 1, \"startedAt\": \"2025-10-28T04:56:43.046627Z\", \"executable\": \"/usr/bin/python3\", \"gpu_nvidia\": [{\"name\": \"Tesla T4\", \"uuid\": \"GPU-00854f99-99ef-37ea-e4e8-c7ed87319817\", \"cudaCores\": 2560, \"memoryTotal\": \"16106127360\", \"architecture\": \"Turing\"}], \"cudaVersion\": \"12.4\", \"cpu_count_logical\": 2}}, \"m\": [], \"t\": {\"1\": [1, 105], \"2\": [1, 105], \"3\": [2, 13, 16], \"4\": \"3.12.12\", \"5\": \"0.22.2\", \"8\": [1, 12], \"12\": \"0.22.2\", \"13\": \"linux-x86_64\"}, \"cli_version\": \"0.22.2\", \"python_version\": \"3.12.12\"}}, \"device\": {\"value\": \"cuda\"}, \"n_embd\": {\"value\": 128}, \"n_head\": {\"value\": 4}, \"run_id\": {\"value\": \"exp05_head4_emb128_bs16_it1000_do0.2\"}, \"dropout\": {\"value\": 0.2}, \"n_layer\": {\"value\": 6}, \"max_iters\": {\"value\": 1000}, \"batch_size\": {\"value\": 16}, \"block_size\": {\"value\": 128}}"
+}

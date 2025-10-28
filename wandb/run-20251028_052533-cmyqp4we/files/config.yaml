@@ -1,0 +1,73 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            p6oztzs40fxn7wnetfwyeaer5rsa6lvc:
+                colab: https://colab.research.google.com/notebook#fileId=1ZGuZSLvBniizG5XaPBMDuZBir_1fiooD
+                cpu_count: 1
+                cpu_count_logical: 2
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "120942624768"
+                        used: "42857816064"
+                email: arunjung1991@gmail.com
+                executable: /usr/bin/python3
+                git:
+                    commit: 93a43d9a5c22450bbf06e78da2cb6eeef084b717
+                    remote: https://github.com/karpathy/nanoGPT.git
+                gpu: Tesla T4
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 2560
+                      memoryTotal: "16106127360"
+                      name: Tesla T4
+                      uuid: GPU-00854f99-99ef-37ea-e4e8-c7ed87319817
+                host: 40ec9e118f9a
+                memory:
+                    total: "13605855232"
+                os: Linux-6.6.105+-x86_64-with-glibc2.35
+                program: nanoGPT_assignment.ipynb
+                python: CPython 3.12.12
+                root: /content/nanoGPT
+                startedAt: "2025-10-28T05:25:33.411361Z"
+                writerId: p6oztzs40fxn7wnetfwyeaer5rsa6lvc
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 105
+            "2":
+                - 1
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.12
+            "5": 0.22.2
+            "8":
+                - 1
+                - 12
+            "12": 0.22.2
+            "13": linux-x86_64
+batch_size:
+    value: 8
+block_size:
+    value: 128
+device:
+    value: cuda
+dropout:
+    value: 0.1
+max_iters:
+    value: 1000
+n_embd:
+    value: 256
+n_head:
+    value: 8
+n_layer:
+    value: 6
+run_id:
+    value: exp24_head8_emb256_bs8_it1000_do0.1
